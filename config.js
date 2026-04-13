@@ -1,0 +1,5 @@
+const CONFIG = {
+  LOW_COST: 5,
+  MEDIUM_COST: 15,
+  PREMIUM_COST: 30
+};

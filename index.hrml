@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Invisible Name Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>👻 Invisible Name Store</h1>
+
+<div id="coins">Coins: 100</div>
+
+<button onclick="showCategory('low')">Low Coins</button>
+<button onclick="showCategory('medium')">Medium Coins</button>
+<button onclick="showCategory('premium')">Premium Coins</button>
+
+<div id="names"></div>
+
+<script src="config.js"></script>
+<script src="db.js"></script>
+<script src="coins.js"></script>
+<script src="store.js"></script>
+<script src="update.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
